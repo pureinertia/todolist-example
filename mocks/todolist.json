@@ -1,0 +1,25 @@
+{
+  "date": "2018-12-12",
+  "items": [
+    {
+      "id": 1,
+      "text": "Shortlist feature for MVP",
+      "done": false
+    },
+    {
+      "id": 2,
+      "text": "Launch PPC campaign with new creative",
+      "done": false
+    },
+    {
+      "id": 3,
+      "text": "Define audience breakdown with new data",
+      "done": false
+    },
+    {
+      "id": 4,
+      "text": "Launch demo for SEO analysis",
+      "done": true
+    }
+  ]
+}

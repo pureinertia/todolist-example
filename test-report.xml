@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/adham/simplybusiness/todo-list/src/reducers/auth.spec.js">
+    <testCase name="TodoList Reducer should dispatch payload and auth end action" duration="4"/>
+    <testCase name="TodoList Reducer should dispatch an auth error action on error" duration="1"/>
+  </file>
+  <file path="/home/adham/simplybusiness/todo-list/src/components/navbar/navbar.spec.js">
+    <testCase name="&lt;NavBar /&gt; renders without errors" duration="7"/>
+  </file>
+  <file path="/home/adham/simplybusiness/todo-list/src/components/todolist/todolist.spec.js">
+    <testCase name="&lt;TodoList /&gt; renders no multiple list items" duration="57"/>
+    <testCase name="&lt;TodoList /&gt; renders no check list items" duration="4"/>
+    <testCase name="&lt;TodoList /&gt; converts date appropriately" duration="9"/>
+    <testCase name="&lt;TodoList /&gt; calls the addItemToTodoList function when add button is clicked" duration="3"/>
+  </file>
+  <file path="/home/adham/simplybusiness/todo-list/src/components/todolist/todoitem.spec.js">
+    <testCase name="&lt;TodoItem /&gt; renders ticked checkbox when done" duration="19"/>
+    <testCase name="&lt;TodoItem /&gt; renders unticked checkbox when done" duration="3"/>
+    <testCase name="&lt;TodoItem /&gt; calls the handleDelete function when trash icon is clicked" duration="2"/>
+    <testCase name="&lt;TodoItem /&gt; calls the handleCheckBox function when checkbox is clicked" duration="1"/>
+  </file>
+  <file path="/home/adham/simplybusiness/todo-list/src/components/layout/layout.spec.js">
+    <testCase name="&lt;Layout /&gt; renders without errors" duration="2"/>
+  </file>
+  <file path="/home/adham/simplybusiness/todo-list/src/reducers/todolist.spec.js">
+    <testCase name="TodoList Reducer should return original state when no action type matches" duration="1"/>
+    <testCase name="TodoList Reducer add a new item" duration="1"/>
+    <testCase name="TodoList Reducer should mark item as down" duration="0"/>
+    <testCase name="TodoList Reducer should mark item as not done" duration="0"/>
+    <testCase name="TodoList Reducer should delete item" duration="1"/>
+    <testCase name="TodoList Reducer should update text for item" duration="0"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> renders without errors 1`] = `
+<nav
+  className="nav-bar"
+>
+  <header
+    className="nav-bar--header"
+  >
+    <div
+      aria-label="User"
+      className="nav-bar--header--photo"
+      role="img"
+      style={
+        Object {
+          "backgroundImage": "url([object Object])",
+        }
+      }
+    />
+    <h3>
+      Some Name
+    </h3>
+  </header>
+  <ul
+    className="nav-bar--list"
+  >
+    <li>
+      <a
+        className="nav-bar--list--item"
+        href="#/"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="list"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        Team To-Do List
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

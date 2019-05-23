@@ -1,0 +1,15 @@
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.layout--side {
+  flex-basis: 300px;
+}
+
+.layout--main {
+  flex-basis: 300px;
+  flex-grow: 1;
+}
